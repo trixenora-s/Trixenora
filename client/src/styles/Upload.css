@@ -1,0 +1,113 @@
+.upload-page {
+  min-height: calc(100vh - 70px);
+  background: #0f172a;
+  padding: 40px 20px;
+}
+
+.upload-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.upload-container h1 {
+  margin-bottom: 30px;
+  color: #e2e8f0;
+}
+
+.upload-type-selector {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+.type-btn {
+  flex: 1;
+  padding: 12px 20px;
+  background: #2d3748;
+  border: 2px solid #4a5568;
+  border-radius: 8px;
+  color: #a0aec0;
+  font-weight: 600;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.type-btn.active {
+  background: #667eea;
+  border-color: #667eea;
+  color: white;
+}
+
+.upload-form {
+  background: #1a202c;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #2d3748;
+}
+
+.form-group {
+  margin-bottom: 25px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 10px;
+  color: #e2e8f0;
+  font-weight: 600;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group input[type="file"],
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  background: #2d3748;
+  border: 1px solid #4a5568;
+  border-radius: 6px;
+  color: #e2e8f0;
+  font-family: inherit;
+  font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+}
+
+.checkboxes label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.checkboxes input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.btn-submit {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.btn-submit:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

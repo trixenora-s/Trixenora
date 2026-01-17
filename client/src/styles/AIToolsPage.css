@@ -1,0 +1,5 @@
+.ai-tools-page {
+  min-height: calc(100vh - 70px);
+  background: #0f172a;
+  padding: 40px 20px;
+}
