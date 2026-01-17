@@ -1,0 +1,11 @@
+{
+  "name": "trixenora-root",
+  "version": "1.0.0",
+  "description": "Trixenora - Game and AI Tools Platform",
+  "scripts": {
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "start-server": "cd server && npm run dev",
+    "start-client": "cd client && npm start",
+    "build": "cd client && npm run build"
+  }
+}
