@@ -1,32 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home -->
   <url>
     <loc>https://trixenora-s.github.io/Trixenora/</loc>
-    <lastmod>2026-01-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
+  <!-- Example pages — replace or add the actual site paths you have -->
   <url>
-    <loc>https://trixenora-s.github.io/Trixenora/games</loc>
-    <lastmod>2026-01-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
+    <loc>https://trixenora-s.github.io/Trixenora/games/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://trixenora-s.github.io/Trixenora/ai-tools</loc>
-    <lastmod>2026-01-17</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://trixenora-s.github.io/Trixenora/auth</loc>
-    <lastmod>2026-01-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://trixenora-s.github.io/Trixenora/dashboard</loc>
-    <lastmod>2026-01-17</lastmod>
+    <loc>https://trixenora-s.github.io/Trixenora/tools/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
